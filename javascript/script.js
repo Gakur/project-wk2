@@ -23,7 +23,7 @@ function Validate(params) {
         return false;
      }
      else if(genders[0].checked==false && genders[1].checked==false ) {
-         alert("You must select male or female");
+         alert("You must select one,male or female to proceed");
          return false;
      }   
      else{

@@ -48,7 +48,8 @@ Some details may not be displayed as expected.Some details may be invalid.
 * 2.HTML
 * 3.Javascript
 ## Support and contact details
-In case of any problem kindly contact me at 1. www.petergakure.go.ke 
+In case of any problem kindly contact me at:
+1. www.petergakure.go.ke 
 2. petergakure97@gmail.com
 ### License
 * [MIT]("https://github.com/Gakur/project-wk2/blob/master/License")*

@@ -3,7 +3,7 @@ var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Satu
 var femaleNames= ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
 var maleNames= ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
 
-function Validate(params) {
+function validate(boolean) {
     var genders = document.getElementsByName("gender");
     if( document.myForm.year.value == "" || document.myForm.year.value.length !=4 || document.myForm.year.value >2100 || document.myForm.year.value <=1900) {
         alert( "Please provide a valid year of birth! eg 2001" );
@@ -108,5 +108,3 @@ function Validate(params) {
      dayValue = calculateDayValue();
      getGender();
    }
-    
-}

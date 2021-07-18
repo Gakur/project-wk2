@@ -31,15 +31,15 @@ Input example, the program compares the inputs with the conditions set for the i
 * 0 < Date >= 31.
 * 0 < Month >= 12
 * Gender Male or Female. <br/>  
-True value is output. Output example: **You were born on Sunday and Your akan name is Kwasi!** &nbsp If your gender is Male.<br/>
-True value is output. Output example: **You were born on Sunday and Your akan name is  Akosua!** &nbsp If your gender is female.  
+True value is output. Output example: **Hello you were born on Sunday and Your akan name is Kwasi!** &nbsp If your gender is Male.<br/>
+True value is output. Output example: **Hello queen you were born on Sunday and Your akan name is  Akosua!** &nbsp If your gender is female.  
 
 **Example**
 * year input   -- 2001
 * month input  -- 7
 * date input -- 15
 * gender -- male selected,
-**Expected output is *You were born on Sunday and Your akan name is Kwasi!***
+**Expected output is *Hello you were born on Sunday and Your akan name is Kwasi!***
 
 ## Known Bugs
 Some details may not be displayed as expected.Some details may be invalid.

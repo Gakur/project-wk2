@@ -7,21 +7,21 @@ function validate() {
   var genders = document.getElementsByName("gender");
   if (document.getElementById('year').value == "" || document.getElementById('year').value.length != 4 || document.getElementById('year').value > 2100 || document.getElementById('year').value<= 1900) {
     alert("Please provide a valid year of birth! eg 2001");
-    exit;
+    return false;
   }
   else if (document.getElementById('month').value == "" || isNaN(document.getElementById('month').value) ||
   document.getElementById('month').value.length != 2 || document.getElementById('month').value >12 || document.getElementById('month').value < 1) {
     alert("Please provide your month of birth! between 1 and 12");
-    exit;
+    return false;
   }
   else if (document.getElementById('date').value == "" || isNaN(document.getElementById('date').value) ||
   document.getElementById('date').value.length != 2 || document.getElementById('date').value > 31 || document.getElementById('date').value < 0) {
     alert("Please provide a valid date of birth!");
-    exit;
+    return false;
   }
   else if (genders[0].checked == false && genders[1].checked == false) {
     alert("You must provide your gender,male or female to proceed");
-    exit;
+    return false;
   }
   else {
     return true;

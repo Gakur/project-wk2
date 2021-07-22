@@ -56,3 +56,22 @@ h1 {
 .content-footer a{
     color: #fff;
 }
+/**card-deck**/
+.card{
+    background: rgb(145, 168, 192);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.card-body{
+    color: rgb(0, 0, 0);
+}
+.card-deck{
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.card-text a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

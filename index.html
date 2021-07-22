@@ -9,55 +9,73 @@
 
 </head>
 
-<body>
-    <div class="container-fluid"
-        styles="background-image:url(https://images.unsplash.com/photo-1564648351416-3eec9f3e85de?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a29zdGVubG9zZSUyMGJpbGRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);">
-        <div id="Heading">
-            <h1>Validate your Akan Name with My Akan Name Checker</hi>
-                <h2 id="fast">Fast, Easy, and Trusted</h2>
-        </div>
-        <div class="overlay">
-            <div class="container">
-                <h2>Welcome and Enter your Details below:</h2>
-                <form name="" class="" onsubmit="">
-                    <div class="form-group">
-                        <label for="year">Year of Birth</label>
-                        <input type="number" class="form-control" id="year"
-                            placeholder="Year of birth e.g 2001 for 2001" name="year">
-                    </div>
-                    <div class="form-group">
-                        <label for="month">Month</label>
-                        <input type="number" class="form-control" id="month"
-                            placeholder="Month of birth e.g 09 for September" name="month">
-                    </div>
-                    <div class="form-group">
-                        <label for="date">Date</label>
-                        <input type="number" class="form-control" id="date"
-                            placeholder="Date of birth e.g 12 or 15 0r 31" name="date">
-                    </div>
-                    <div class="form-group">
-                        <label for="gender">Gender</label>
-                        <br>
-                        <div class="form-check-inline">
-                            <label class="form-check-label">
-                                <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
-                            </label>
-                        </div>
+<body class="container-fluid"
+    styles="background-image:url(https://images.unsplash.com/photo-1564648351416-3eec9f3e85de?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8a29zdGVubG9zZSUyMGJpbGRlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);">
+    <div id="Heading">
+        <h1>Validate your Akan Name with My Akan Name Checker</hi>
+            <h2 id="fast">Fast, Easy, and Trusted</h2>
+    </div>
+    <div class="overlay">
+        <div class="container">
+            <h2>Welcome and Enter your Details below:</h2>
+            <form name="" class="" onsubmit="">
+                <div class="form-group">
+                    <label for="year">Year of Birth</label>
+                    <input type="number" class="form-control" id="year" placeholder="Year of birth e.g 2001 for 2001"
+                        name="year">
+                </div>
+                <div class="form-group">
+                    <label for="month">Month</label>
+                    <input type="number" class="form-control" id="month"
+                        placeholder="Month of birth e.g 09 for September" name="month">
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="number" class="form-control" id="date" placeholder="Date of birth e.g 12 or 15 0r 31"
+                        name="date">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <br>
+                    <div class="form-check-inline">
                         <label class="form-check-label">
-                            <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
+                            <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male
                         </label>
                     </div>
-                    <button type="button" class="btn btn-primary" onclick="findName();">Click to Get Your Name</button>
-                    <br>
-                </form>
-                <p id="results"></p>
-            </div>
-            <footer class="content-footer">
-                <div class="footer-copyright">Copyright © 2021:
-                    <a href="https://gakur.github.io/project-wk2/">Peter Gakure</a>
-            </footer>
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female
+                    </label>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="findName();">Click to Get Your Name</button>
+                <br>
+            </form>
+            <p id="results"></p>
         </div>
     </div>
+    <div class="card-deck">
+        <div class="card">
+            <div class="card-body  text-center">
+                <p class="card-text">Akan names are derived from Ghanian culture. Get your Akan name by filling
+                    the form above!</p>
+            </div>
+        </div>
+        <div class="card ">
+            <div class="card-body text-center">
+                <p class="card-text">Names are based on gender and the date you were born. Frequently in Ghana,
+                    children are given their first name as a 'day name' which corresponds to the day in the week
+                    they were born.<br>
+                    <span class="fa-stack fa-lg">
+                        <i class="fa fa-globe fa-stack-1x" style="color:rgb(188, 222, 252)"></i>
+                    </span><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj3juXjg_bxAhVS5uAKHYPmDNkQFjABegQIBBAD&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAkan_names&usg=AOvVaw3i7q4ibFEwxzAZZgP0luUe">Get more information on Akan names</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="content-footer">
+        <div class="footer-copyright">Copyright © 2021:
+            <a href="https://gakur.github.io/project-wk2/">Peter Gakure</a>
+        </div>
+    </footer>
     <script src="javascript/script.js"></script>
 </body>
 
